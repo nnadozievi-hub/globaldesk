@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Desk — Global Markets Briefing</title>
+<meta name="description" content="A daily US / UK / Europe / Asia markets briefing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap top">
+    <div class="brand">
+      <span class="mark">Desk</span>
+      <h1>Global Markets Briefing <span id="edition">· loading</span></h1>
+    </div>
+    <div class="status">
+      <span id="status-badge"><span class="dot"></span><b>—</b></span>
+      <span id="updated">—</span>
+    </div>
+  </div>
+</header>
+
+<div class="tape-shell">
+  <div class="wrap">
+    <div class="tape-label" id="tape-label">Global tape</div>
+    <div class="tape" id="tape"></div>
+  </div>
+</div>
+
+<nav>
+  <div class="wrap"><div class="tabs" id="tabs"></div></div>
+</nav>
+
+<main class="wrap" id="panels">
+  <div class="state">
+    <div class="spinner"></div>
+    <div class="eyebrow">Loading</div>
+    <h2>Fetching today's briefing</h2>
+    <p>Pulling the latest US, UK, Europe and Asia read.</p>
+  </div>
+</main>
+
+<div class="wrap">
+  <div class="note">
+    <div class="eyebrow">About this page</div>
+    <p>This briefing regenerates automatically each weekday morning via a scheduled job that researches the four regions and rewrites the data. The timestamp above shows when it last refreshed.</p>
+    <p class="disc">Figures are model-sourced from public reporting and may be revised or occasionally wrong — verify before acting. Stance tags and framing are interpretation, not fact. Nothing here is investment advice.</p>
+  </div>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
