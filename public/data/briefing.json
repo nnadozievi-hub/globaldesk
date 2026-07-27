@@ -1,0 +1,153 @@
+{
+  "asOf": "Fri 24 Jul close",
+  "marketStatus": "Markets closed — weekend",
+  "generatedAt": "2026-07-25T07:30:00.000Z",
+  "headline": "An AI-capex scare and a live US–Iran oil shock drove risk assets lower into a triple central-bank week.",
+  "tape": [
+    { "n": "S&P 500", "v": "7,411.98", "c": "+0.05%", "d": "up" },
+    { "n": "FTSE 100", "v": "10,736.23", "c": "+0.91%", "d": "up" },
+    { "n": "STOXX 600", "v": "644.50", "c": "+0.80%", "d": "up" },
+    { "n": "Nikkei 225", "v": "64,584", "c": "-2.77%", "d": "down" },
+    { "n": "Hang Seng", "v": "24,963", "c": "-0.98%", "d": "down" },
+    { "n": "UST 10Y", "v": "4.68%", "c": "18-mo high", "d": "down" },
+    { "n": "Gilt 10Y", "v": "5.03%", "c": "+30bp/mo", "d": "down" },
+    { "n": "Brent", "v": "$96.78", "c": "-4.0%", "d": "down" },
+    { "n": "Gold", "v": "$4,056", "c": "+0.15%", "d": "up" },
+    { "n": "Bitcoin", "v": "$65.0k", "c": "-1.6%", "d": "down" }
+  ],
+  "regions": [
+    {
+      "code": "US", "name": "United States",
+      "lede": "Enter next week defensively. A <b>hawkish-hold Fed</b>, three megacap capex verdicts and the full growth-inflation-jobs trifecta all land inside four days — against 18-month-high yields and a live oil shock.",
+      "meta": "S&P 7,411.98 · Fed funds 3.50–3.75% · 10Y 4.68% · VIX ~18.7 · all three indices lower on the week (Nasdaq -2%)",
+      "asOfLabel": "Fri 24 Jul close",
+      "snapshot": [
+        { "asset": "S&P 500", "level": "7,411.98", "session": "+0.05%", "trend": "wk -1.3%", "d": "down" },
+        { "asset": "Nasdaq Comp.", "level": "24,975.82", "session": "-0.64%", "trend": "wk -2.0%", "d": "down" },
+        { "asset": "Dow Jones", "level": "51,947.25", "session": "+0.46%", "trend": "wk ~flat", "d": "down" },
+        { "asset": "Russell 2000", "level": "—", "session": "-0.35%", "trend": "wk lower", "d": "down" },
+        { "asset": "10Y Treasury", "level": "4.68%", "session": "-1bp", "trend": "wk higher", "d": "down" },
+        { "asset": "2Y Treasury", "level": "4.33%", "session": "—", "trend": "wk higher", "d": "flat" },
+        { "asset": "VIX", "level": "18.7", "session": "+12% Thu", "trend": "elevated", "d": "down" }
+      ],
+      "developments": [
+        { "title": "Megacap AI-capex shock", "stance": "bearish", "body": "Alphabet and Tesla beat on revenue but spooked investors on spending — Alphabet lifted 2026 capex to a record ~$205bn and posted its first-ever negative free cash flow; Tesla fell 14.5% on a margin collapse. The Magnificent Seven shed ~$787bn Thursday, the worst day since April 2025." },
+        { "title": "Fed decision Wednesday", "stance": "hawkish", "body": "A hold at 3.50–3.75% is near-certain (5th straight), but the risk is asymmetric toward a HIKE (~35% priced; ~80% by September). New chair Warsh won't give forward guidance, so the statement's tone is the whole signal. No projections at this meeting." },
+        { "title": "Yields at 18-month highs", "stance": "bearish", "body": "The 10Y hit its highest since January 2025 on the oil spike and new tariffs, with some desks flagging a test of 5%. This is the transmission belt compressing equity multiples and pressuring crypto." },
+        { "title": "New Section 301 tariffs", "stance": "bearish", "body": "The expired 10% global levy is being replaced by country tariffs (10% on UK/EU/Canada/Mexico; up to 12.5% on Japan/Korea) on forced-labor grounds. JPMorgan estimates ~0.2–0.3pp added to the PCE price level." }
+      ],
+      "calendar": [
+        { "date": "Wed 29", "event": "<b>FOMC decision</b> (2pm ET) + Warsh presser · <b>Microsoft & Meta</b> earnings", "hot": true },
+        { "date": "Thu 30", "event": "<b>Q2 advance GDP</b> · <b>Amazon & Apple</b> earnings · Qualcomm", "hot": true },
+        { "date": "Thu/Fri", "event": "<b>June PCE</b> (Fed's preferred gauge) · Employment Cost Index", "hot": true },
+        { "date": "Fri 1 Aug", "event": "<b>July jobs report</b> · ISM Manufacturing · UMich sentiment", "hot": true },
+        { "date": "Mon 27", "event": "Durable goods (June); Nucor, Cadence", "hot": false },
+        { "date": "Tue 28", "event": "Consumer Confidence; 2Y/5Y auctions", "hot": false }
+      ],
+      "watch": [
+        "10Y toward 5% — the level that reprices everything",
+        "Hyperscaler-vs-semis divergence: are chipmakers still rewarded?",
+        "Brent's $100 line and any real US–Iran diplomacy",
+        "BofA Bull & Bear signal at highest since 2021 (contrarian sell)"
+      ]
+    },
+    {
+      "code": "UK", "name": "United Kingdom",
+      "lede": "A two-speed market. Equities are <b>resilient</b> on their energy and defensive tilt, but <b>gilts are the pressure point</b> as a new PM inherits a strained fiscal position. The Bank of England holds Thursday.",
+      "meta": "FTSE 100 10,736.23 (2nd weekly gain) · Bank Rate 3.75% · 10Y gilt ~5.03% · CPI 2.6% · GBP/USD ~$1.34",
+      "asOfLabel": "Fri 24 Jul close",
+      "snapshot": [
+        { "asset": "FTSE 100", "level": "10,736.23", "session": "+0.91%", "trend": "wk +1.28%", "d": "up" },
+        { "asset": "FTSE 250", "level": "~23,900", "session": "-0.3%", "trend": "wk +0.83%", "d": "down" },
+        { "asset": "10Y Gilt", "level": "5.03%", "session": "—", "trend": "+30bp/mo", "d": "down" },
+        { "asset": "30Y Gilt", "level": "5.72%", "session": "—", "trend": "elevated", "d": "down" },
+        { "asset": "GBP / USD", "level": "~1.34", "session": "—", "trend": "fiscal-capped", "d": "flat" },
+        { "asset": "EUR / GBP", "level": "~1.175", "session": "—", "trend": "steady", "d": "flat" },
+        { "asset": "UK CPI (Jun)", "level": "2.6%", "session": "held", "trend": "below US 3.5%", "d": "up" }
+      ],
+      "developments": [
+        { "title": "New PM: Andy Burnham", "stance": "bearish", "body": "Burnham became PM on 20 Jul (John Healey named Chancellor; Reeves out). His pledge to seek 'flexibility' within the fiscal rules pushed the 10Y gilt up ~8bp on day one to ~5.05%, its highest since late May. He is the 7th PM in a decade — the churn is itself a gilt risk premium, atop record May borrowing (£23.3bn)." },
+        { "title": "Bank of England holds Thursday", "stance": "neutral", "body": "Bank Rate stays at 3.75% — all 70 economists in Reuters' poll expect no change, with the July Monetary Policy Report alongside. The skew is mildly hawkish (8 see a hike this year vs 4 a cut). CPI at 2.6% is above target but far tamer than the US." },
+        { "title": "FTSE resilience", "stance": "bullish", "body": "The FTSE 100 rose 1.28% on the week (2nd straight gain), sits ~2% below its record and is +17.7% over 12 months. Its heavy weighting to oil majors and defensives means it benefits when crude rises — the mirror image of the US tech-heavy tape." },
+        { "title": "Heavyweight earnings week", "stance": "catalyst", "body": "The biggest UK reporting week: AstraZeneca, four banks (Barclays, StanChart, Lloyds, NatWest), Shell, GSK, Unilever, Rolls-Royce, BAE, LSEG and the miners. Banks have had a strong year on elevated rates; watch net interest margins and loan-loss trends." }
+      ],
+      "calendar": [
+        { "date": "Mon 27", "event": "<b>AstraZeneca</b>, Vodafone results", "hot": true },
+        { "date": "Tue 28", "event": "<b>Barclays</b> (first bank), GSK, Unilever, Rio Tinto", "hot": true },
+        { "date": "Wed 29", "event": "Standard Chartered, Reckitt · (US Fed)", "hot": false },
+        { "date": "Thu 30", "event": "<b>Bank of England</b> + July MPR · <b>Shell</b>, Lloyds, Rolls-Royce, BAE, LSEG", "hot": true },
+        { "date": "Fri 31", "event": "<b>NatWest</b>, IAG, Taylor Wimpey, Rightmove", "hot": true },
+        { "date": "Mon 4 Aug", "event": "HSBC results", "hot": false }
+      ],
+      "watch": [
+        "The gilt curve — does the term premium keep widening under Burnham?",
+        "Bank net interest margins as the yield curve steepens",
+        "Shell's guidance & buybacks (quarter pre-dates the oil spike)",
+        "Autumn Budget signals from the new Chancellor"
+      ]
+    },
+    {
+      "code": "EU", "name": "Europe",
+      "lede": "The relative haven. Less tech-exposed and with solid earnings, Europe shrugged off the AI unwind — but an <b>energy-driven inflation risk</b> keeps the ECB's next move tilted toward a hike, not a cut.",
+      "meta": "STOXX 600 ~644.5 (wk +0.46%) · ECB key rate 2.25% (held) · DAX wk +1.08% · nat gas at 3½-yr high",
+      "asOfLabel": "Fri 24 Jul close",
+      "snapshot": [
+        { "asset": "STOXX 600", "level": "644.50", "session": "+0.80%", "trend": "wk +0.46%", "d": "up" },
+        { "asset": "Euro STOXX 50", "level": "6,281", "session": "+1.10%", "trend": "wk higher", "d": "up" },
+        { "asset": "DAX (Germany)", "level": "—", "session": "+0.5%", "trend": "wk +1.08%", "d": "up" },
+        { "asset": "CAC 40 (France)", "level": "—", "session": "+0.4%", "trend": "wk +0.40%", "d": "up" },
+        { "asset": "FTSE MIB (Italy)", "level": "—", "session": "—", "trend": "wk -0.15%", "d": "down" },
+        { "asset": "ECB key rate", "level": "2.25%", "session": "held", "trend": "hike-biased", "d": "flat" }
+      ],
+      "developments": [
+        { "title": "ECB holds, stays vigilant", "stance": "hawkish", "body": "The Governing Council left all three key rates unchanged (2.25%), a unanimous vote. Lagarde flagged 'serious developments' in commodities from the US–Iran escalation and is watching second-round effects. Markets price ~23bp of ECB hikes this year; Pictet calls a September hike likely." },
+        { "title": "Defensive outperformance", "stance": "bullish", "body": "Europe's lower exposure to the mega-cap AI names cushioned it from the selloff that hit the US and Asia. The trade-off: it captured less of the earlier AI-led rally, but right now that defensiveness is a feature." },
+        { "title": "Earnings strength", "stance": "bullish", "body": "SAP jumped ~9% Friday on a strong cloud backlog; Wolters Kluwer +5%; heavyweight banks (Santander, BBVA, BNP, Intesa) closed sharply higher. Corporate results have been generally robust across the reporting-heavy week." },
+        { "title": "European energy squeeze", "stance": "bearish", "body": "Natural gas prices rose to their highest since December 2022 as the Middle East conflict disrupted flows — keeping energy-inflation risk live and limiting relief for eurozone sovereign bonds." }
+      ],
+      "calendar": [
+        { "date": "Mon 27", "event": "Germany <b>Ifo</b> business climate · LVMH, Michelin", "hot": true },
+        { "date": "Tue+", "event": "Santander, BBVA, Airbus, Mercedes, Saipem, Italgas", "hot": false },
+        { "date": "Wed 29", "event": "US Fed decision (global driver)", "hot": false },
+        { "date": "Thru wk", "event": "Bank & industrial earnings; euro-area inflation flashes", "hot": false }
+      ],
+      "watch": [
+        "Nat-gas & Brent → the ECB's second-round-effects test",
+        "Whether the September ECB hike gets priced further in",
+        "German industrial / autos data under tariff pressure",
+        "Defensive rotation holding vs a tech-led global bounce"
+      ]
+    },
+    {
+      "code": "AS", "name": "Asia-Pacific",
+      "lede": "Asia took the brunt of the AI unwind and carries the most oil sensitivity. Japan's enormous run leaves it exposed to <b>both AI sentiment and crude</b>, while China grinds higher on policy support.",
+      "meta": "Nikkei 64,584 (-2.77% Fri) · Hang Seng ~24,963 · Shanghai 3,814 · Japan & Korea heavily oil-import dependent",
+      "asOfLabel": "Fri 24 Jul close",
+      "snapshot": [
+        { "asset": "Nikkei 225", "level": "64,584", "session": "-2.77%", "trend": "tech-led", "d": "down" },
+        { "asset": "TOPIX", "level": "~4,011", "session": "-1.05%", "trend": "softer", "d": "down" },
+        { "asset": "Hang Seng", "level": "24,963", "session": "-0.98%", "trend": "range", "d": "down" },
+        { "asset": "Shanghai Comp.", "level": "3,814", "session": "-1.61%", "trend": "policy bid", "d": "down" },
+        { "asset": "USD / JPY", "level": "weak yen", "session": "—", "trend": "oil-sensitive", "d": "down" }
+      ],
+      "developments": [
+        { "title": "Tech-led selloff", "stance": "bearish", "body": "Tokyo bore the brunt of Wall Street's AI-capex scare — the Nikkei fell 2.77% Friday with SoftBank -7.6%, Renesas -7.2% and Mitsubishi Motors -7.3%. Asian markets carry heavier semiconductor and AI-supply-chain weightings than Europe." },
+        { "title": "Japan's oil sensitivity", "stance": "bearish", "body": "Japan depends heavily on Middle Eastern crude, so the oil spike hits its terms of trade directly. PM Takaichi's approval is slipping as cost-of-living measures fall short — a domestic overhang layered on the external shock." },
+        { "title": "China grinds on policy support", "stance": "neutral", "body": "Shanghai and Hong Kong were soft with the global tape, but the policy backdrop is supportive — five-year-plan priorities in AI and consumption, 'anti-involution' reform, consumer-loan subsidies, and an extended US trade truce that averts triple-digit tariffs." },
+        { "title": "Weekend oil relief", "stance": "developing", "body": "Reports of a US–Iran pause over the weekend sent crude sharply lower into Monday, easing the biggest pressure point for oil-importing Asia. Durability of the pause is the key unknown." }
+      ],
+      "calendar": [
+        { "date": "Fri 31", "event": "<b>Bank of Japan</b> decision (policy-normalisation path)", "hot": true },
+        { "date": "Thru wk", "event": "China PMIs; Japan & Korea industrial data", "hot": false },
+        { "date": "Ongoing", "event": "Middle East / Strait of Hormuz oil-flow headlines", "hot": true },
+        { "date": "Ongoing", "event": "AI-supply-chain read-through from US megacap capex", "hot": false }
+      ],
+      "watch": [
+        "Does the US–Iran pause hold? Asia is most oil-levered",
+        "BoJ tone on further normalisation vs political uncertainty",
+        "China policy follow-through on consumption",
+        "Nikkei's altitude — a big run leaves room to fall on sentiment"
+      ]
+    }
+  ]
+}
