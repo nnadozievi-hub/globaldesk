@@ -1,0 +1,71 @@
+name: Daily briefing
+
+on:
+  schedule:
+    # 06:00 UTC, Mon–Fri.  GitHub cron is ALWAYS UTC and does not observe British Summer Time,
+    # so this fires at 07:00 London time in summer (BST) and 06:00 in winter (GMT).
+    # Adjust the hour if you want a different slot. Runs can be delayed a few minutes under load.
+    - cron: "0 6 * * 1-5"
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+# Least-privilege permissions this job needs.
+permissions:
+  contents: write   # commit the refreshed briefing.json back to the repo
+  pages: write      # publish to GitHub Pages
+  id-token: write   # required by the Pages deploy action
+
+# Never run two deploys at once; let an in-flight deploy finish.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate today's briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional: uncomment to change the model.
+          # ANTHROPIC_MODEL: claude-opus-4-8
+        run: npm run generate
+
+      - name: Commit refreshed briefing
+        continue-on-error: true # a push hiccup must never block the deploy
+        run: |
+          git config user.name  "briefing-bot"
+          git config user.email "briefing-bot@users.noreply.github.com"
+          git add public/data/briefing.json
+          if git diff --staged --quiet; then
+            echo "No change in briefing.json — skipping commit."
+          else
+            git commit -m "chore: refresh briefing $(date -u +%Y-%m-%d) [skip ci]"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
